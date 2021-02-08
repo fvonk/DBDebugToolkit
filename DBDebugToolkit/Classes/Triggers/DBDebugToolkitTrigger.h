@@ -20,7 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "DBDebugToolkitTriggerDelegate.h"
+#import <DBDebugToolkit/DBDebugToolkitTriggerDelegate.h>
 
 #ifndef DBDebugToolkitTrigger_h
 #define DBDebugToolkitTrigger_h

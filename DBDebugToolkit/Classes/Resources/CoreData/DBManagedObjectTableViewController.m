@@ -147,7 +147,13 @@ static NSString *const DBManagedObjectTableViewControllerRelationshipCellIdentif
     NSString *title = self.relationshipNames[row];
     BOOL isEnabled = [self.managedObject valueForKey:title] != nil;
     relationshipCell.textLabel.text = title;
-    relationshipCell.textLabel.textColor = isEnabled ? [UIColor blackColor] : [UIColor lightGrayColor];
+    UIColor* labelColor;
+    if (@available(iOS 13.0, *)) {
+        labelColor = UIColor.labelColor;
+    } else {
+        labelColor = UIColor.blackColor;
+    }
+    relationshipCell.textLabel.textColor = isEnabled ? labelColor : [UIColor lightGrayColor];
     relationshipCell.accessoryType = isEnabled ? UITableViewCellAccessoryDisclosureIndicator : UITableViewCellAccessoryNone;
     relationshipCell.selectionStyle = isEnabled ? UITableViewCellSelectionStyleDefault : UITableViewCellSelectionStyleNone;
     return relationshipCell;

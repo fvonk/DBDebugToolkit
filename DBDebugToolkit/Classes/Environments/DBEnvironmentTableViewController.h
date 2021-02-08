@@ -20,9 +20,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "DBDebugToolkit.h"
-#import "DBEnvironmentModelProtocol.h"
-#import "DBTextViewTableViewCell.h"
+#import <DBDebugToolkit/DBDebugToolkit.h>
+#import <DBDebugToolkit/DBEnvironmentModelProtocol.h>
+#import <DBDebugToolkit/DBTextViewTableViewCell.h>
 
 @interface DBEnvironmentTableViewController : UITableViewController <DBTextViewTableViewCellDelegate>
 

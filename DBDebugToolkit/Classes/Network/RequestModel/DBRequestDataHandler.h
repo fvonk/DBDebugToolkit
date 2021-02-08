@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "DBRequestModel.h"
+#import <DBDebugToolkit/DBRequestModel.h>
 
 @class DBRequestDataHandler;
 

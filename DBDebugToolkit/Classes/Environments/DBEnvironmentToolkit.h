@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "DBEnvironmentModelProtocol.h"
+#import <DBDebugToolkit/DBEnvironmentModelProtocol.h>
 
 @interface DBEnvironmentToolkit : NSObject <DBEnvironmentModelProtocol>
 

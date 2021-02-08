@@ -22,7 +22,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "DBBuildInfoProvider.h"
+#import <DBDebugToolkit/DBBuildInfoProvider.h>
 
 extern NSString *const DBUserInterfaceToolkitColorizedViewBordersChangedNotification;
 

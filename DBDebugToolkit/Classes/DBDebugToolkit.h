@@ -21,9 +21,9 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "DBDebugToolkitTrigger.h"
-#import "DBCustomAction.h"
-#import "DBCustomVariable.h"
+#import <DBDebugToolkit/DBDebugToolkitTrigger.h>
+#import <DBDebugToolkit/DBCustomAction.h>
+#import <DBDebugToolkit/DBCustomVariable.h>
 
 /**
  `DBDebugToolkit` provides the interface that can be used to setup and customize the debugging tools.
