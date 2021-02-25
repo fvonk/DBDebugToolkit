@@ -23,7 +23,7 @@
 #ifndef DBEnvironmentModelProtocol_h
 #define DBEnvironmentModelProtocol_h
 
-#import "DBTitleValueTableViewCellDataSource.h"
+#import <DBDebugToolkit/DBTitleValueTableViewCellDataSource.h>
 @import UIKit;
 
 @protocol DBEnvironmentModelProtocol

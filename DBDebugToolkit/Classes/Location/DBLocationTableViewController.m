@@ -150,7 +150,13 @@ static NSString *const DBLocationTableViewControllerSimpleCellIdentifier = @"DBD
                                       reuseIdentifier:DBLocationTableViewControllerSimpleCellIdentifier];
     }
     BOOL isSelected = self.selectedIndex.integerValue == indexPath.row;
-    cell.textLabel.textColor = isSelected ? cell.tintColor : [UIColor blackColor];
+    UIColor* labelColor;
+    if (@available(iOS 13.0, *)) {
+        labelColor = UIColor.labelColor;
+    } else {
+        labelColor = UIColor.blackColor;
+    }
+    cell.textLabel.textColor = isSelected ? cell.tintColor : labelColor;
     cell.textLabel.text = indexPath.row == 0 ? @"Custom..." : self.locationToolkit.presetLocations[indexPath.row - 1].title;
     cell.accessoryType = isSelected ? UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone;
     return cell;

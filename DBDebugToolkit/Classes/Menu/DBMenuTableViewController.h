@@ -21,18 +21,18 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import "DBPerformanceToolkit.h"
-#import "DBConsoleOutputCaptor.h"
-#import "DBBuildInfoProvider.h"
-#import "DBDeviceInfoProvider.h"
-#import "DBNetworkToolkit.h"
-#import "DBUserInterfaceToolkit.h"
-#import "DBLocationToolkit.h"
-#import "DBCoreDataToolkit.h"
-#import "DBCustomAction.h"
-#import "DBCustomVariable.h"
-#import "DBCrashReportsToolkit.h"
-#import "DBEnvironmentToolkit.h"
+#import <DBDebugToolkit/DBPerformanceToolkit.h>
+#import <DBDebugToolkit/DBConsoleOutputCaptor.h>
+#import <DBDebugToolkit/DBBuildInfoProvider.h>
+#import <DBDebugToolkit/DBDeviceInfoProvider.h>
+#import <DBDebugToolkit/DBNetworkToolkit.h>
+#import <DBDebugToolkit/DBUserInterfaceToolkit.h>
+#import <DBDebugToolkit/DBLocationToolkit.h>
+#import <DBDebugToolkit/DBCoreDataToolkit.h>
+#import <DBDebugToolkit/DBCustomAction.h>
+#import <DBDebugToolkit/DBCustomVariable.h>
+#import <DBDebugToolkit/DBCrashReportsToolkit.h>
+#import <DBDebugToolkit/DBEnvironmentToolkit.h>
 
 @class DBMenuTableViewController;
 

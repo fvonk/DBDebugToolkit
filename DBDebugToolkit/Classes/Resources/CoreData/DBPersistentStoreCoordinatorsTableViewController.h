@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import "DBCoreDataToolkit.h"
+#import <DBDebugToolkit/DBCoreDataToolkit.h>
 
 @class DBPersistentStoreCoordinatorsTableViewController;
 
